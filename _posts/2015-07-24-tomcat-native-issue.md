@@ -12,10 +12,10 @@ SEVERE: An incompatible version 1.1.30 of the APR based Apache Tomcat Native lib
 ```
 
 This is due to the fact that our tomcat setup is using the tomcat native.
-After looking at the changelog of tomcat, it seems to be there since Tomcat 7.0.57. 
+After looking at the changelog of tomcat, it seems to be there since Tomcat 7.0.57. (https://bz.apache.org/bugzilla/show_bug.cgi?id=53952) 
 Unfortunately we didn't saw it directly, since tomcat start anyway (but has no listening socket).
 Unfortunately centos6 epel only provides tomcat-native-1.1.30-1.el6.x86_64
-So no toher option than rebuilding the rpm for centos6.
+So no other option than rebuilding the rpm for centos6.
 
 ## Rebuild the RPM from the src rpm of fedora
  
