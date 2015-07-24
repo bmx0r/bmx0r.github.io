@@ -1,4 +1,5 @@
 _site
+<<<<<<< HEAD
 .DS_Store
 .jekyll
 .bundle
@@ -7,3 +8,6 @@ Gemfile
 Gemfile.lock
 node_modules
 package.json
+=======
+.sass-cache
+>>>>>>> eb204035d4b5d948fa837eaafc6010c48aaba4fe
