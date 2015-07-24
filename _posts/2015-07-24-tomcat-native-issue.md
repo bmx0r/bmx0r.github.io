@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ISSUE : Tomcat 7.0.59-1 require a new version of tomcat-native on centos6
+title: Tomcat 7.0.59-1 require a new version of tomcat-native on centos6
 ---
 
 ## ISSUE : Tomcat 7.0.59-1 require a new version of tomcat-native on centos 6
