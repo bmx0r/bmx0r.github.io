@@ -8,7 +8,7 @@ theme:
   title: bmx0r
   avatar: avatar.png
   gravatar: # Email MD5 hash
-  description: "Linux , Bmx, Downhill, Opensource, whatever..." # used by search engines
+  description: "Linux , Bmx, Downhill, Opensource,..." # used by search engines
 
   # Header and footer text
   header_text: >
