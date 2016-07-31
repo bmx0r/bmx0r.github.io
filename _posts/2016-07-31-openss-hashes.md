@@ -12,13 +12,13 @@ In practice what does it mean….
  
 When you need to add a new CA in /etc/openldap/cacerts (the directory containing the CA to allow us to recognize the ldap’s server certificate)
 We need two things :
--          The Root CA
--          A link who point to that root with a hashe.0 as name
+- The Root CA
+- A link who point to that root with a hashe.0 as name
 
  
 Ie I add two CA in the directory:
--          /etc/openldap/cacerts/rootCA.pem
--          /etc/openldap/cacerts/server_ssl_subCA.pem
+- /etc/openldap/cacerts/rootCA.pem
+- /etc/openldap/cacerts/server_ssl_subCA.pem
 
 Now I have to generate the link :
 -          ln -s rootCA.pem `openssl x509 -hash -noout -in rootCA.pem`.0
